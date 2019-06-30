@@ -8,16 +8,21 @@
     
     <!-- Note, if I want to clear margins should I do that here in a style tag before linking to bootstrap? -->
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
 
+    
 
 </head>
 <body>
     <div class="everything">
         <!-- Nav Bar at Top -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Eric Jobin</a>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"><h1>Eric Jobin</h1></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,29 +45,83 @@
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form> -->
+        <!--    </div>
+        </nav> -->
+
+        <!-- <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand"><h1>Eric Jobin</h1></a>
+                </div>
+                <div class="rightside">
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span></span>About</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                    
+                </div>
             </div>
-        </nav>
-              
-        <div class="background"> <!--Body of Page-->
+        </nav> -->
+
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Page 2</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+              <!--Body of Page-->
+        <div class="background"> 
 
             <div class="container">
                 <div class="row">
                     <div class="col-10">
                         <div class="jumbotron textbox shadow">
-                            <h1>Eric Jobin</h1>
+                            <h2>About Me</h2>
                             <hr>
-                            <img src="assets/images/facesm.jpg">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia esse repellendus, molestiae illo quia illum consequatur perferendis, quos eaque, voluptate laboriosam earum fuga explicabo itaque autem ipsa unde! Expedita odio iure a esse dignissimos, sapiente adipisci nostrum porro amet quis deleniti voluptate repudiandae pariatur atque necessitatibus suscipit laborum nam!
+                            <div class="bio">
+                                <div class="biopic">
+                                    <img src="assets/images/facesm.jpg">
+                                </div>
+                                <div class="biotext">
+                                    <p>Eric Jobin is a learner at the University of Toronto where he's studying Full Stack Web Development. Undertaking an experimental 12 week intense boot-camp style course, he is preparing for a career in the web development industry and building up a portfolio of work to show off to potential employers.</p>
+                                    <p>Eric Jobin lives in North York, in the Newtonbrook neighbourhood, where he resides in a small condo apartment in a very tall building, surrounded by other very tall buildings. The neighbourhood is known for its easy access to public transportation, and a number of Korean restaurants. Eric can find kimchi on sale at any time of day or night.</p>
+                                    <p>When Eric is not studying or working on web development projects, he can usually be found playing boardgames, drinking tea, or reading.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
                     <!-- <div class="col-md-8 d-block bg-primary shadow">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, amet neque, sint sequi hic perspiciatis repellendus officia similique maiores, aliquid minus? Quam sequi magnam architecto quidem iste maiores repellat quo.</p>
                     </div> -->
 
-                </div>
             </div>
         </div>
+    </div>
 
         <!-- footer -->
 

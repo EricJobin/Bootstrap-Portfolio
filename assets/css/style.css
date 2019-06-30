@@ -18,25 +18,13 @@ h1{
     padding: 5px;
     padding-top: 10%;
 
-    border: #000 1px solid;
+    /*tourbleshooting*/
+    /* border: #000 1px solid; */
     
 }
-.rightside{
-    border: #000 1px solid;
 
-    /* display:flex; */
-    /* flex-direction:row; */
-    /* display: inline-block;
-    text-align: center; */
 
-    /* display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center; */
 
-    width: 30%;
-    display:inline;
-}
 
 /*body styling*/
 .background{

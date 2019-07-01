@@ -16,12 +16,16 @@ body{
 /*Navbar styling*/
 .navbar{
     height:10vh;
+    padding:0;
+    margin:0;
 }
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #fff;
     padding: 5px;
+    padding-right:30px;
+    margin-left:10%;
     padding-top: 10%;
     /* position:top; */
 
@@ -105,19 +109,15 @@ h2{
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
-  }
+}
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
+.work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
-  }
+    opacity: .9;
+}
   
-  .work h3 {
+.work h3 {
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -128,16 +128,10 @@ h2{
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
-    opacity: .8;
+    opacity: .7;
     border-bottom: 0;
-  }
+}
   
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
+
 
 

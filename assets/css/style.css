@@ -2,10 +2,16 @@
     margin:0;
     padding:0;
 }
-
-.everything{
-    height:100vh;
+body{
+    background-color: #ddd; 
+    background-image: url(../images/bkgnd.png);
 }
+
+/* .everything{
+    height:100vh; 
+    Height:100%;
+    border: 1px #000 solid;
+} */
 
 /*Navbar styling*/
 .navbar{
@@ -35,8 +41,8 @@ h1{
 /*body styling*/
 .background{
     height:85vh;
-    background-image: url(../images/bkgnd.png);
-    background-color: #ddd; 
+    /* background-image: url(../images/bkgnd.png);
+    background-color: #ddd;  */
 }
 
 .textbox{

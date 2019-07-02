@@ -54,13 +54,20 @@ h1{
     /* border: #000 1px solid; */
     
 }
-.navbar-brand{
+/* .navbar-brand{
     padding-top:0;
-}
+} */
 .navtext{
     font-family:  'Georgia', Times, Times New Roman, serif;
     color: #777777;
     font-size: 20px;
+}
+@media screen and (max-width: 768px){
+    .navbar-brand h1{
+        padding:6px;
+        padding-top: 10px;
+    }
+
 }
 
 

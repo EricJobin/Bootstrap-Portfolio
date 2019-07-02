@@ -54,6 +54,9 @@ h1{
     /* border: #000 1px solid; */
     
 }
+.navbar-brand{
+    padding-top:0;
+}
 .navtext{
     font-family:  'Georgia', Times, Times New Roman, serif;
     color: #777777;

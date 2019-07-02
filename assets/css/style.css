@@ -19,14 +19,35 @@ body{
     padding:0;
     margin:0;
 }
-h1{
+/* .bg-primary{
+    background-color: #fff;
+} */
+
+/* h1{  backup
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #fff;
     padding: 5px;
     padding-right:30px;
     margin-left:10%;
+
+    commented out
     padding-top: 10%;
+    position:top;
+    tourbleshooting
+    border: #000 1px solid;
+    
+} */
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: calc( (10vh - 2.5rem)/2 );
+    /* padding: 5px; */
+    /* padding-right:30px; */
+    /* margin-left:10%; */
+    /* padding-top: 10%; */
     /* position:top; */
 
     /*tourbleshooting*/
